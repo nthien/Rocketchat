@@ -1,43 +1,69 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
+**/bin/**
+**/build/*
+**/node_modules/*
+**/tmp/*
+/private/certs/*
+*.bak
+*.iml
+*.ipr
+*.iws
+*.launch
+*.log
+*.pydevproject
+*.sublime-project
+*.swp
+*.tmp
+*.tokens
+*.un~
+*~
+*~.nib
+.*.sw[a-z]
+.\#*
 ._*
-
-# Files that might appear on external disk
+.buildpath
+.classpath
+.clover
+.cproject
+.DS_Store
+.elasticbeanstalk
+.elc
+.emacs.desktop
+.emacs.desktop.lock
+.env
+.externalToolBuilders
+.idea
+.loadpath
+.map
+.metadata
+.meteor/local
+.meteor/meteorite
+.mule
+.pmd
+.project
+.sass-cache
+.settings
 .Spotlight-V100
 .Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+.wtpmodules
+\#*\#
+BuildInfo.js
+Desktop.ini
+ehthumbs.db
+example.css
+jrat.output
+jrat.xml
+local.properties
+meteor-vulcanize
+nb-configuration.xml
+nbactions.xml
+nbproject
+profiles.xml
+Session.vim
+smart.lock
+temp_*
+Thumbs.db
+thumbs.db
+tramp
+ecosystem.json
+pm2.json
+settings.json
